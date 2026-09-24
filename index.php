@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -36,8 +36,8 @@
                  <th class="border border-gray-300 px-4 py-2">First Name</th>
                  <th class="border border-gray-300 px-4 py-2">Last Name</th>
                  <th class="border border-gray-300 px-4 py-2">Actions</th>
-              </tr>
-        <?php 
+              </tr> 
+              <?php 
         $?php
         $sql= "SELECT * FROM students";
         $result = mysqli_query($conn, $sql);
@@ -63,4 +63,4 @@
          </table>
       </div>                
 </body>
-</html> 
+</html>
